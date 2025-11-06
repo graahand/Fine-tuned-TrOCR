@@ -1,5 +1,6 @@
-from transformers import TrOCRProcessor, AdamW
+from transformers import TrOCRProcessor
 import torch
+from torch.optim import AdamW
 from transformers import VisionEncoderDecoderModel
 from tqdm.notebook import tqdm
 from eval_metric import compute_cer
