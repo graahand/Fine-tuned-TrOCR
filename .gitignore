@@ -1,0 +1,69 @@
+# Include essential project files
+!.gitignore
+!.gitmodules
+!README.md
+
+# Include Python files from Finalized_flow only
+!Finalized_flow/
+Finalized_flow/*
+!Finalized_flow/*.py
+!Finalized_flow/requirements_gradio.txt
+!Finalized_flow/README_gradio.md
+!Finalized_flow/launch_gradio.sh
+
+# Ignore common unnecessary files
+.DS_Store
+.vscode/
+.idea/
+*.log
+*.tmp
+.env
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+.pytest_cache/
+.mypy_cache/
+.tox/
+venv/
+env/
+ENV/
+
+# Ignore large data files and outputs
+*.csv
+*.html
+*.zip
+*.tar.gz
+*.jpg
+*.jpeg
+*.png
+*.pdf
+*.mp4
+*.avi
+*.mov
+datasets/
+output*/
+OUTPUT*/
+orientation_corrected*/
+*_output/
+*_results/
+
+# Ignore gradio cache
+.gradio/
+
+# Ignore model files and checkpoints
+*.bin
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.h5
+*.pb
+*.tflite
+*.pdparams
+*.pdmodel

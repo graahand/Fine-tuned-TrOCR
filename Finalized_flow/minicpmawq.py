@@ -1,0 +1,1 @@
+openbmb/MiniCPM-V-4_5-AWQ
